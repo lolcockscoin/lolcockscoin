@@ -1,0 +1,4 @@
+lolcockscoin
+============
+
+lolcockscoin

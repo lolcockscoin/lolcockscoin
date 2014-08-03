@@ -1,0 +1,34 @@
+src/*.exe
+src/lolcockscoin
+src/lolcockscoind
+src/test_lolcockscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.lolcockscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+lolcockscoin-qt
+Lolcockscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+lolcockscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
